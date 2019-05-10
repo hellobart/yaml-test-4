@@ -1,0 +1,14 @@
+
+name: Adaptor Test 4
+node_identifier: test4
+platforms:
+  - Docker
+  - AWS Lambda
+  - GCP Functions
+data_sources:
+  - name: Binance
+    url: https://binance.com
+  - name: Coinbase Pro
+    url: https://pro.coinbase.com
+  - name: LinkPool
+    url: https://linkpool.io
